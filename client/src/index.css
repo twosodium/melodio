@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'giamlass'; 
+  src: url('fonts/giamlass/Giamlass-Regular.otf');
+}
+
+@font-face {
+  font-family: 'baliung'; 
+  src: url('fonts/baliung/2.\ TTF/Baliung.ttf');
+}
+
+@font-face {
+  font-family: 'ackor'; 
+  src: url('fonts/ackor-demo/AckorDemo-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'thelorin'; 
+  src: url('fonts/thelorin/Thelorin.otf');
+}
+
+@font-face {
+  font-family: 'crostan'; 
+  src: url('fonts/crostan/Crostan-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'emotion'; 
+  src: url('fonts/emotion/Emotion\ ArtDeco\ Demo.ttf');
+}
+
+@font-face {
+  font-family: 'detailed'; 
+  src: url('fonts/detailed/Detailed\ Artdeco\ Demo.ttf');
+}
+
+@font-face {
+  font-family: 'artographie'; 
+  src: url('fonts/artographie/ArtographieMedium-PERSONAL_USE.ttf');
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'crostan';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+.root {
+  text-align: center;
+  width: 100%;
+  max-width: 2000px;
+  padding: 20px;
+  box-shadow: none;
+  border-radius: 0px;
+  
+}
+
+h1 {
+  font-weight: 1000;
+  font-size: 13rem;
+  margin-bottom: 20px;
+  background-image: url('green.jpg');
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'detailed'; 
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color:white;
+  font-family: 'artographie'; 
+}
+
+h3 { 
+  font-weight: 100;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color:rgb(116, 164, 129);
+  font-family: 'artographie';
+}
+
+ul { 
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color:white;
+}
+
+::placeholder {
+  color: black;
+  font-family: 'artographie';
+}
+
+input {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 10px 0;
+  width: 50%;
+  box-sizing: border-box;
+  background-color: #8a7062;
+  border: none;
+  border-radius: 0px;
+  font-family: 'artographie';
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  background-color: #9a5d5d;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  font-family: 'artographie';
+}
+
+button:hover {
+  background-color: #eb9b7b;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+div {
+  margin-bottom: 20px;
+}
