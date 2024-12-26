@@ -27,7 +27,7 @@ function App() {
     if (token) {
       setAccessToken(token);
     }
-  }, []);
+  }, []); // Obtain access token after callback 
 
   const searchArtist = async () => {
     if (!artistName) return;
@@ -127,10 +127,10 @@ function App() {
       };
       document.body.appendChild(script);
     } else if (spotifyAPIRef.current && !controllerRef.current) {
-      // if API is loaded and controller is not yet created, initialize it
+      // If API is loaded and controller is not yet created, initialize it
       createEmbedController(spotifyAPIRef.current);
     } else if (controllerRef.current) {
-      // update the embed URL for an existing controller
+      // Update the embed URL for an existing controller
       updateEmbedUri(controllerRef.current, embedUrl);
     }
   }, [embedUrl]);
@@ -235,5 +235,6 @@ function App() {
   );
 }
 
+// Render the app
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);

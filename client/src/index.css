@@ -48,6 +48,7 @@ body, html {
   align-items: center;
   background-color: #000000;
   margin-right: 10px;
+  overflow: auto;
 }
 
 ul {
@@ -62,6 +63,9 @@ ul {
   padding: 20px;
   box-shadow: none;
   border-radius: 0px;
+  overflow: auto;
+  overflow-y: auto;
+  max-height: 100vh;
   
 }
 
