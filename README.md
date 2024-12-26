@@ -1,2 +1,2 @@
 # melod.io
-how well do you know your favorite Spotify artists?
+a little spotify api project (more to come)
