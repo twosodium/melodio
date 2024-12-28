@@ -9,7 +9,7 @@ client/build
 
 # misc
 .DS_Store
-server/.env
+.env
 client/test
 
 npm-debug.log*
