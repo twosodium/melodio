@@ -18,7 +18,7 @@ function App() {
   const embedIframeRef = useRef(null);
 
   const login = () => {
-    window.location.href = 'http://localhost:5000/login';
+    window.location.href = 'http://localhost:10000/login';
   };
 
   useEffect(() => {
