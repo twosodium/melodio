@@ -18,7 +18,7 @@ function App() {
   const embedIframeRef = useRef(null);
 
   const login = () => {
-    window.location.href = 'http://localhost:10000/login';
+    window.location.href = 'http://melodio-server.onrender.com:10000/login';
   };
 
   useEffect(() => {
