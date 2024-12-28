@@ -4,18 +4,13 @@
 /.pnp
 .pnp.js
 
-# testing
-/coverage
-
 # production
 client/build
 
 # misc
 .DS_Store
 server/.env
-.env.development.local
-.env.test.local
-.env.production.local
+client/test
 
 npm-debug.log*
 yarn-debug.log*
