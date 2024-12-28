@@ -46,7 +46,7 @@ app.get('/callback', async (req, res) => {
     const response = await axios.post(tokenUrl, querystring.stringify(tokenData), { headers: tokenHeaders });
     const { access_token, refresh_token } = response.data;
 
-    const clientUrl = process.env.CLIENT_URL || 'http://localhost:3000'; // Update this with your React app's URL
+    const clientUrl = process.env.CLIENT_URL || 'https://melodio.onrender.com'; // Update this with your React app's URL
     res.redirect(`${clientUrl}?access_token=${access_token}`);
   } catch (error) {
     console.error('Error exchanging code for access token', error);
